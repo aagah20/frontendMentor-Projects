@@ -30,7 +30,7 @@ Hello I am Aachal and i completed the QR code design uding HTML and CSS.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/aagah20/frontendMentor-Projects/tree/main/QR-Code)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
@@ -60,5 +60,5 @@ I want to focus more on responsive layouts and making more websites using JS too
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/aagah20
 
