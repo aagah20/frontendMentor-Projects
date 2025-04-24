@@ -25,12 +25,12 @@ Social Links Profile using HTML and CSS
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/aagah20/frontendMentor-Projects/tree/main/Social%20Links%20Profile/socialLinksProfile
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
 ## Author
 
 - Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/aagah20
 
