@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 0%, 8%);
+}
+
+article {
+    max-height: 615px;
+    width: 100%;
+    max-width: 385px;
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.6rem;
+}
+
+article img {
+    border-radius: 10rem;
+    width: 25%;
+}
+article h2{
+    color: hsl(0, 0%, 100%);
+    margin-top: 1.7rem;
+}
+article h5{
+    color: hsl(75, 94%, 57%);
+    margin-top: 0.7rem;
+}
+article p{
+    color: hsl(0, 1%, 83%);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    font-weight: 400;
+}
+article section{
+    width: 90%;
+}
+article section a{
+    display: block;
+    background-color: hsl(0, 0%, 20%);
+    padding: 0.9rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+section a:hover{
+    background-color: hsl(75, 94%, 57%);
+    cursor: pointer;
+    color: hsl(0, 0%, 8%);
+}
+section a:hover{
+    color: hsl(0, 0%, 8%);
+}
+
+
+
+
+
+
+/* article ul{
+    list-style: none;
+    width: 90%;
+}
+ul li{
+    background-color: hsl(0, 0%, 20%);
+    padding: 0.9rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border-radius: 0.5rem;
+} */
+/* ul li a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+} */
+
