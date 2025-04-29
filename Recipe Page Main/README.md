@@ -20,7 +20,7 @@ Mobile Design
 ### Links
 
 - Solution URL: https://github.com/aagah20/frontendMentor-Projects/tree/main/Recipe%20Page%20Main
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://frontend-mentor-projects-crt9.vercel.app/
 
 
 ## Author
