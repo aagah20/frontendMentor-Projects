@@ -1,0 +1,275 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    background-color: hsl(30, 54%, 90%);
+    justify-content: center;
+    opacity: 0.9;
+}
+article{
+    width: 737px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2.5rem;
+    margin: 8.2rem 0;
+    height: 1710px;
+    border-radius: 1.5rem;
+}
+article img{
+    width: 100%;
+    border-radius: 0.8rem;
+    margin-bottom: 1.8rem;
+}
+article h1{
+    font-size: 2.5rem;
+    color: hsl(24, 5%, 18%);
+    font-weight: 500;
+    /* font-family: "Outfit", sans-serif; */
+    font-family: "Young Serif", serif;
+    margin-bottom: 1.3rem;
+}
+h1 + p{
+    margin-bottom: 2em;
+}
+p{
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    opacity: 0.9;
+    line-height: 150%;
+}
+
+.prep{
+ background-color: hsl(330, 100%, 98%);
+ padding: 1.5rem;
+ border-radius: 1rem;
+ margin-bottom: 1.7rem;
+}
+.prep h3{
+    font-size: 1.3rem;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.prep ul{
+    padding: 0rem 1.5rem;
+}
+.prep ul li{
+    padding: 0.35rem 1.2rem;
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    font-family: "Outfit", sans-serif;
+    opacity: 0.9;
+}
+.prep li span{
+    color: hsl(30, 2%, 24%);
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+    opacity: 0.9;
+}
+
+.ingredients{
+    margin-bottom: 1.7rem;
+}
+.ingredients h2{
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+}
+.ingredients ul{
+    padding: 0 1.5rem;
+}
+.ingredients ul li{
+    padding: 0.37rem 1.1rem;
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    opacity: 0.9;
+}
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+hr{
+    border-top: 1px solid gainsboro;
+}
+
+.instruct{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.instruct h2{
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+}
+.instruct ol{
+    padding: 0 1.3rem;
+}
+.instruct ol li{
+    padding: 0.3rem 1rem;
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    opacity: 0.9;
+    line-height: 140%;
+}
+.instruct li span{
+    color: hsl(24, 5%, 18%);
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+}
+.instruct li::marker{
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+.nutrition{
+    margin-top: 1.5rem;
+}
+.nutrition h2{
+    color: hsl(14, 45%, 36%);
+    margin-bottom: 1rem;
+    font-size: 1.75rem;
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+}
+
+.nutrition p{
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    opacity: 0.9;
+    line-height: 150%;
+    margin-bottom: 0.7rem;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr:last-child > td{
+    border-bottom: none;
+}
+td{
+    border-bottom: 1px solid gainsboro;
+    font-size: 1rem;
+    color: hsl(30, 10%, 34%);
+    font-weight: 500;
+    font-family: "Outfit", sans-serif;
+    opacity: 0.9;
+    line-height: 150%;
+    padding: 0.8rem 2.3rem;
+}
+.nutrition td.red{
+    color: hsl(14, 45%, 36%);
+    font-family: "Outfit", sans-serif;
+    font-weight: 700;
+}
+
+
+
+
+
+
+@media (max-width:768px) {
+    html{
+        font-size: 18px;
+    }
+    article{
+        width: 100%;
+        margin: 0 0;
+        height: 100%;
+        padding: 0rem;
+    }
+    article img{
+        border-radius: 0;
+    }
+    article h1{
+        padding: 0 1.7rem;
+        margin-bottom: 1rem;
+        line-height: 100%;
+    }
+    h1 + p{
+        padding: 0 1.7rem ;
+    }
+    p{
+        font-size: 1.15rem;
+    }
+    
+    .prep{
+     margin: 1.7rem;
+     margin-bottom: 0.5rem;
+    }
+    .prep h3{
+        font-size: 1.5rem;
+    }
+    .prep ul{
+        padding: 0rem 1.3rem;
+    }
+    .prep ul li{
+        font-size: 1.2rem;
+    }
+    
+    .ingredients{
+        padding: 1.7rem;
+        margin-bottom: 0.5rem;
+    }
+    .ingredients h2{
+        font-size: 2.1rem;
+    }
+    .ingredients ul{
+        padding: 0 1.5rem;
+    }
+    .ingredients ul li{
+        font-size: 1.2rem;
+    }
+    hr{
+        margin: 0 1.7rem;
+    }
+
+    .instruct{
+        margin: 1.7rem;
+        margin-bottom: 1.5rem;
+    }
+    .instruct h2{
+        font-size: 2.1rem;
+    }
+    .instruct ol li{
+        padding: 0.3rem 0.7rem;
+        font-size: 1.1rem;
+        color: hsl(30, 10%, 34%);
+    }
+    
+    .nutrition{
+        margin-top: 1.3rem;
+        margin: 1.7rem;
+    }
+    .nutrition h2{
+        margin-bottom: 0.9rem;
+        font-size: 2.15rem;
+    }
+    
+    .nutrition p{
+        font-size: 1.2rem;
+    }
+    td{
+        font-size: 1.3rem;
+    }
+    
+}
