@@ -19,13 +19,12 @@ Mobile Design
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://github.com/aagah20/frontendMentor-Projects/tree/main/Recipe%20Page%20Main
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/aagah20
 
 
