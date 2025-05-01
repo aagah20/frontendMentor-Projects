@@ -24,12 +24,12 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/aagah20/frontendMentor-Projects/tree/main/ProductPreviewCardComponent
+- Live Site URL: https://frontend-mentor-projects-9bfo.vercel.app/
 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - https://www.frontendmentor.io/profile/aagah20
 
 
