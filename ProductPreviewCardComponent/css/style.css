@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Underdog&family=Winky+Rough:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap');
+
+
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+     clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     min-height: 100vh;
+     background-color: hsl(30, 38%, 92%);
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+main {
+     width: 603px;
+     display: flex;
+     /* margin-top: 9em; */
+     /* background-color: aqua; */
+}
+
+section.img {
+     width: 50%;
+}
+
+section.img .mobile-img {
+     display: none;
+}
+
+section.img img {
+     width: 100%;
+     border-bottom-left-radius: 10px;
+     border-top-left-radius: 10px;
+}
+
+section.details {
+     width: 50%;
+     padding: 2em;
+     background-color: hsl(0, 0%, 100%);
+     border-bottom-right-radius: 10px;
+     border-top-right-radius: 10px;
+     opacity: 0.85;
+}
+
+section.details span#miniHeading {
+     letter-spacing: 6px;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
+     font-size: 0.8em;
+     color: hsl(228, 12%, 48%);
+     /* font-family: "Fraunces", serif; */
+}
+
+.details h1 {
+     font-family: "Fraunces", serif;
+     font-weight: 700;
+     color: hsl(212, 21%, 14%);
+}
+
+.details p {
+     line-height: 150%;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
+     color: hsl(228, 12%, 48%);
+     font-size: 0.9rem;
+}
+
+.span {
+     display: flex;
+}
+
+.span span+span {
+     align-self: center;
+     margin-left: 2em;
+     text-decoration: line-through;
+     font-family: "Montserrat", sans-serif;
+     font-weight: 500;
+     font-size: 0.85rem;
+     color: hsl(228, 12%, 48%);
+}
+
+.details strong {
+     font-size: 2rem;
+     font-family: "Fraunces", serif;
+     color: hsl(158, 36%, 37%);
+}
+
+.details a {
+     display: block;
+     text-decoration: none;
+     padding: 1em;
+     margin-top: 2em;
+     font-family: "Montserrat", sans-serif;
+     background-color: hsl(158, 36%, 37%);
+     color: hsl(0, 0%, 100%);
+     text-align: center;
+     font-weight: 700;
+     font-size: 0.9rem;
+     border-radius: 10px;
+}
+
+.details a:hover {
+     background-color: hsl(158, 42%, 18%);
+}
+
+a img {
+     margin-right: 1em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+@media (max-width:500px) {
+
+     main {
+          /* width: 344px; */
+          flex-direction: column;
+          align-items: center;
+          margin-top: 4em;
+          /* background-color: aqua; */
+     }
+
+     section.img {
+          width: 95%;
+          align-items: center;
+     }
+
+     section.img .desktop-img {
+          display: none;
+     }
+
+     section.img .mobile-img {
+          display: block;
+          margin: 0 auto;
+     }
+
+     section.img img {
+          width: 95%;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+          border-bottom-left-radius: 0px;
+          border-bottom-left-radius: 0px;
+     }
+
+     section.details {
+          width: 90%;
+          padding: 1em;
+          border-bottom-left-radius: 10px;
+          border-top-right-radius: 0px;
+     }
+
+     .details h1 {
+          font-size: 1.9rem;
+     }
+     .details p {
+          font-size: 0.95rem;
+     }
+     .span span+span {
+          margin-left: 1.7em;
+          font-size: 0.9rem;
+     }
+
+     .details strong {
+          font-size: 2.2rem;
+     }
+
+     .details a {
+          margin-top: 1.5em;
+     }
+}
